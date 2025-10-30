@@ -51,9 +51,9 @@ export default function PopupForm() {
 				</button>
 			<div className="relative bg-[#C0A5F2] rounded-[40px] p-4 lg:p-8 max-w-[330px] lg:max-w-[700px] text-center animate-fade-in">
 
-				<h2 className="smallheading text-white mb-8">Send your request now and start receiving real kitchen clients directly to your WhatsApp.</h2>
+				<h2 className="smallheading text-white mb-4 lg:mb-8">Send your request now and start receiving real kitchen clients directly to your WhatsApp.</h2>
 
-				<form className="flex flex-col gap-5">
+				<form className="flex flex-col gap-3 lg:gap-5">
 					<input
 						type="text"
 						placeholder="Your name"
