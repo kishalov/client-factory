@@ -68,7 +68,7 @@ export default function FixedMenu() {
 
 	return (
 		<>
-			{/* ====== Десктоп-хэдер (без изменений) ====== */}
+			{/* ====== Десктоп-хэдер ====== */}
 			<header className="container fixed top-0 left-0 z-50 rounded-b-[40px] py-5 hidden lg:block">
 				<div className="flex items-center justify-between bg-[#C0A5F2] p-3 rounded-full">
 					<Link

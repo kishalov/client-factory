@@ -1,5 +1,11 @@
 'use client'
 import { useState } from 'react'
+import {
+	Accordion,
+	AccordionContent,
+	AccordionItem,
+	AccordionTrigger,
+} from '@/components/ui/accordion'
 
 export default function FAQSection() {
 	const [openIndex, setOpenIndex] = useState(0)
@@ -40,9 +46,12 @@ export default function FAQSection() {
 	]
 
 	return (
-		<section className="relative bg-[#825BDA] text-white overflow-hidden pt-20 lg:pt-40" id="faq">
-			{/* фон с кругами */}
-			<div className="absolute inset-0 overflow-visible z-0">
+		<section
+			className="relative bg-[#825BDA] text-white pt-20 lg:pt-40"
+			id="faq"
+		>
+			{/* фоновые круги */}
+			<div className="absolute inset-0 overflow-hidden z-0">
 				<div className="absolute w-[420px] h-[420px] bg-[#C0A5F2]/70 rounded-full top-[8%] left-[5%] animate-wiggle"></div>
 				<div className="absolute w-[600px] h-[600px] bg-[#C0A5F2]/60 rounded-full top-[40%] left-[70%] animate-wiggle"></div>
 				<div className="absolute w-[300px] h-[300px] bg-[#C0A5F2]/50 rounded-full top-[75%] left-[25%] animate-wiggle"></div>
@@ -50,39 +59,34 @@ export default function FAQSection() {
 
 			{/* контент */}
 			<div className="container relative z-10 flex flex-col items-center gap-10">
-				<h2 className="headingtext text-center text-white mb-4">Questions & Answers</h2>
+				<h2 className="headingtext text-center text-white mb-4">
+					Questions & Answers
+				</h2>
 
-				<div className="flex flex-col gap-6">
+				<Accordion
+					type="single"
+					collapsible
+					defaultValue="item-1"
+					className="flex flex-col gap-6 w-full"
+				>
 					{faqs.map((item, i) => (
-						<div
+						<AccordionItem
 							key={i}
-							className="corners-effect card bg-white text-black rounded-[20px] lg:rounded-[40px] cursor-pointer px-5 lg:px-10 py-4 lg:py-8 transition-all"
-							onClick={() => setOpenIndex(openIndex === i ? -1 : i)}
+							value={`item-${i}`}
+							className="corners-effect bg-white rounded-[40px]"
 						>
-							<div className="flex flex-row justify-between items-center w-full">
-								<div className="flex flex-col lg:flex-row">
-									<h3
-                                        className={`smallheading transition-all duration-300 ${
-                                            openIndex === i ? 'lg:w-[30%] mb-3' : 'w-auto'
-                                        }`}
-                                    >
-                                        {item.q}
-                                    </h3>
-
-									{openIndex === i && (
-										<p className="maintext text-black whitespace-pre-line lg:w-[60%] lg:px-8">
-											{item.a}
-										</p>
-									)}
-								</div>
-
-								<span className="text-[#C0A5F2] text-4xl lg:text-6xl leading-none select-none">
-									{openIndex === i ? '−' : '+'}
+							<AccordionTrigger className="flex cursor-pointer p-8 justify-between items-center w-full text-left">
+								<span><h3 className="smallheading font-semibold text-black">
+									{item.q}
+								</h3>
 								</span>
-							</div>
-						</div>
+							</AccordionTrigger>
+							<AccordionContent className=" text-black">
+								<span><p className="maintext p-8 pt-0 whitespace-pre-line">{item.a}</p></span>
+							</AccordionContent>
+						</AccordionItem>
 					))}
-				</div>
+				</Accordion>
 			</div>
 		</section>
 	)

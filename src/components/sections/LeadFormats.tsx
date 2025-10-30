@@ -15,6 +15,7 @@ export default function LeadTypes() {
 			{/* Карточки */}
 			<div className="grid grid-cols-1 lg:grid-cols-[1fr_40px_1fr]">
 				{/* Basic Lead */}
+				<button data-popup="true">
 				<div className="card corners-effect z-1 bg-[#F6F4FF] flex flex-col justify-between rounded-[40px] p-10 transition-all duration-[0.4s] ease-in-out hover:-translate-y-2 cursor-pointer">
 					<div>
 						<h3 className="smallheading text-black mb-4 pointer-events-none">Basic Lead (No Call)</h3>
@@ -27,7 +28,7 @@ export default function LeadTypes() {
 						<span className="text-black maintext mb-1.5 pointer-events-none">/ per lead</span>
 					</div>
 				</div>
-            	
+            	</button>
                 {/* Средняя тонкая колонка */}
 				<div className="relative flex justify-center items-center bg-[#F6F4FF] h-10 
 					lg:flex-col lg:justify-between lg:items-center lg:h-full">
@@ -39,6 +40,7 @@ export default function LeadTypes() {
 				</div>
 				
                 {/* Appointment Lead */}
+				<button data-popup="true">
 				<div className="card corners-effect cursor-pointer bg-[#2E163C] flex flex-col justify-between rounded-[40px] p-10 transition-all duration-[0.4s] ease-in-out hover:-translate-y-2">
 					<div>
 						<h3 className="smallheading text-white mb-4 pointer-events-none">Appointment (With Call)</h3>
@@ -51,6 +53,7 @@ export default function LeadTypes() {
 						<span className="text-white maintext mb-1.5 opacity-90 pointer-events-none">/ per confirmed appointment</span>
 					</div>
 				</div>
+				</button>
 			</div>
 		</section>
 	)
