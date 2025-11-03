@@ -138,10 +138,10 @@ export default function FixedMenu() {
 				</nav>
 				<div className="flex flex-col items-start p-10 gap-8">
 						<a
-							href="tel:+27871234567"
+							href="tel:+27609539763"
 							className="link-underline uppercase text-black tinyheading"
 						>
-							+27 87 123 4567
+							+27 60 953 9763
 						</a>
 						<button data-popup="true"  className="btn-corners">
 							<span>Get clients</span>
