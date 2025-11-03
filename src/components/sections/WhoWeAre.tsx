@@ -9,7 +9,7 @@ export default function WhoWeAreAndWhyChoose() {
 				<div className="absolute w-[400px] h-[400px] bg-[#C0A5F2]/70 rounded-full top-[10%] left-[10%] animate-wiggle"></div>
 				<div className="absolute w-[600px] h-[600px] bg-[#C0A5F2]/60 rounded-full top-[30%] left-[65%] animate-wiggle"></div>
 				<div className="absolute w-[300px] h-[300px] bg-[#C0A5F2]/50 rounded-full top-[60%] left-[25%] animate-wiggle"></div>
-				<div className="absolute w-[500px] h-[500px] bg-[#C0A5F2]/60 rounded-full top-[70%] left-[70%] animate-wiggle-delayed"></div>
+				<div className="absolute w-[200px] h-[200px] bg-[#C0A5F2]/60 rounded-full top-[70%] left-[70%] animate-wiggle"></div>
 			</div>
 
 			{/* --- Первая часть (Who We Are) --- */}

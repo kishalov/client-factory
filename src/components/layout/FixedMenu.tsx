@@ -69,8 +69,8 @@ export default function FixedMenu() {
 	return (
 		<>
 			{/* ====== Десктоп-хэдер ====== */}
-			<header className="container fixed top-0 left-0 z-50 rounded-b-[40px] py-5 hidden lg:block">
-				<div className="flex items-center justify-between bg-[#C0A5F2] p-3 rounded-full">
+			<header className="container fixed top-0 left-0 z-50 hidden lg:block">
+				<div className="flex items-center justify-between bg-white shadow-[0_10px_20px_-5px_rgba(0,0,0,0.1)] p-3 rounded-b-[40px]">
 					<Link
 						href="/"
 						className="flex items-center hover:-rotate-3 hover:scale-[110%] transition-all duration-200 pl-5"
@@ -104,10 +104,10 @@ export default function FixedMenu() {
 
 					<div className="flex items-center gap-8">
 						<a
-							href="tel:+27871234567"
+							href="tel:+27609539763"
 							className="link-underline uppercase text-black tinyheading"
 						>
-							+27 87 123 4567
+							+27 60 953 9763
 						</a>
 						<button data-popup="true" className="btn-corners">
 							<span>Get clients</span>
