@@ -21,34 +21,34 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
 	{
-		name: 'Sarah Johnson',
+		name: 'David Miller',
 		avatar: '/images/avatars/avatar1.jpg',
 		rating: 5,
-		text: 'We started working with Client Factory about six months ago, and the difference is huge — our flow of new client requests has doubled. Every contact feels genuine and relevant to what we do.',
+		text: 'We’ve been using Client Factory for about half a year now. The number of client requests we receive has grown steadily, and most of them turn into real projects. It’s a service you can rely on.',
 	},
 	{
 		name: 'Michael Smith',
 		avatar: '/images/avatars/avatar2.jpg',
 		rating: 4,
-		text: 'Overall, a very solid service. The customer inquiries are real, though sometimes they come unevenly — a few busy weeks followed by slower ones. Still, we’ve turned many of them into actual sales opportunities.',
+		text: 'Solid and straightforward experience. The customer inquiries are genuine, though they sometimes come in bursts. Still, we’ve converted many into sales opportunities, so it’s been worth it.',
 	},
 	{
-		name: 'Tanya Mokoena',
+		name: 'Tebogo Mokoena',
 		avatar: '/images/avatars/avatar3.jpg',
 		rating: 5,
-		text: 'Client Factory has been a game-changer for our small workshop. The team filters out irrelevant requests, so every customer contact we get is serious and well-informed. It saves us so much time.',
+		text: 'Client Factory has really helped us grow our kitchen business. Every client contact we get is well-screened and relevant, which saves us a lot of time compared to running ads on our own.',
 	},
 	{
 		name: 'James Nkosi',
 		avatar: '/images/avatars/avatar4.jpg',
 		rating: 5,
-		text: 'The quality of client contacts is excellent — we’ve reduced our ad spend but kept sales growing month after month. The support team always checks in and makes sure everything runs smoothly.',
+		text: 'The client contacts we receive are high quality — we’ve cut back on advertising but still increased monthly sales. Their support team checks in often and keeps everything on track.',
 	},
 	{
-		name: 'Olivia Jacobs',
+		name: 'Liam Jacobs',
 		avatar: '/images/avatars/avatar5.jpg',
 		rating: 4,
-		text: 'We’ve had a great experience overall. The customer inquiries are consistent and on point. We had a small delay at the start, but the team handled it quickly. It feels like working with real partners.',
+		text: 'We’ve had a positive experience so far. The customer inquiries are consistent and relevant. We had a small hiccup early on, but the team handled it fast. It’s been a good partnership overall.',
 	},
 ]
 
