@@ -21,7 +21,7 @@ export default function HowItWorks() {
 				<div className="card bg-[#F6F4FF] flex-col rounded-[40px] relative overflow-hidden">
 					<h3 className="smallheading text-black mb-6 lg:w-[60%] pointer-events-none">We launch advertising campaigns</h3>
 					<p className="maintext text-black lg:w-[60%] pointer-events-none">
-						Facebook, Instagram, Google, classifieds and more — all paid by us.
+						Facebook, Instagram, Google, and local classifieds — fully managed and paid by us.
 					</p>
 					<span className="absolute -bottom-5 right-5 lg:-bottom-10 lg:right-8 text-8xl lg:text-[170px] font-light text-[#825BDA] opacity-20 lg:opacity-100 leading-none tracking-tighter pointer-events-none">01</span>
 				</div>
@@ -30,7 +30,7 @@ export default function HowItWorks() {
 				<div className="card bg-[#F6F4FF] flex-col rounded-[40px] relative overflow-hidden">
 					<h3 className="smallheading text-black mb-6 w-[60%] pointer-events-none">Clients submit a kitchen request</h3>
 					<p className="maintext text-black lg:w-[60%] pointer-events-none">
-						They fill in details: size, budget, location, style, and timeline.
+						They provide details such as layout, budget, location, preferred style, and installation time.
 					</p>
 					<span className="absolute -bottom-5 right-5 lg:-bottom-10 lg:right-8 text-8xl lg:text-[170px] font-light text-[#825BDA] opacity-20 lg:opacity-100 leading-none tracking-tighter pointer-events-none">02</span>
 				</div>
@@ -39,7 +39,7 @@ export default function HowItWorks() {
 				<div className="card bg-[#F6F4FF] flex-col rounded-[40px] relative overflow-hidden -rotate-1">
 					<h3 className="smallheading text-black mb-6 lg:w-[60%] pointer-events-none">We verify every contact</h3>
 					<p className="maintext text-black lg:w-[60%] pointer-events-none">
-						Our team manually checks all leads, calls them, and confirms their interest.
+						Our team manually checks all inquiries, calls each person, and confirms genuine interest.
 					</p>
 					<span className="absolute -bottom-5 right-5 lg:-bottom-10 lg:right-8 text-8xl lg:text-[170px] font-light text-[#825BDA] opacity-20 lg:opacity-100 leading-none tracking-tighter pointer-events-none">03</span>
 				</div>
@@ -48,7 +48,7 @@ export default function HowItWorks() {
 				<div className="card bg-[#F6F4FF] flex-col rounded-[40px] relative overflow-hidden">
 					<h3 className="smallheading text-black mb-6 lg:w-[60%] pointer-events-none">You get ready-to-buy clients</h3>
 					<p className="maintext text-black lg:w-[60%] pointer-events-none">
-						Each verified lead is sent directly to your WhatsApp within 5 minutes.
+						Each verified contact is delivered straight to your WhatsApp within minutes.
 					</p>
 					<span className="absolute -bottom-5 right-5 lg:-bottom-10 lg:right-8 text-8xl lg:text-[170px] font-light text-[#825BDA] opacity-20 lg:opacity-100 leading-none tracking-tighter pointer-events-none">04</span>
 				</div>

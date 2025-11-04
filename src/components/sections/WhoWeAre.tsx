@@ -63,7 +63,7 @@ export default function WhoWeAreAndWhyChoose() {
 						{/* 1 */}
 						<div className="card bg-white text-black flex flex-col relative items-center overflow-visible">
 							<p className="smallheading lg:w-[70%] ">
-								You get leads quickly — see the first ones within 48 hours
+								You start getting client requests fast — see the first ones within 48 hours
 							</p>
 						</div>
 

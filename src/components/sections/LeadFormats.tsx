@@ -8,7 +8,7 @@ export default function LeadTypes() {
 			{/* Заголовок */}
 			<div className="mb-10">
 				<h2 className="headingtext text-black">
-					Two types of <span className="inline-block bg-[#825BDA] text-white rounded-full px-7 py-1 rotate-2">leads</span>
+					Two types of <span className="inline-block bg-[#825BDA] text-white rounded-full px-7 py-1 rotate-2">client requests</span>
 				</h2>
 			</div>
 
@@ -18,14 +18,14 @@ export default function LeadTypes() {
 				<button data-popup="true">
 				<div className="card corners-effect z-1 bg-[#F6F4FF] flex flex-col justify-between rounded-[40px] p-10 transition-all duration-[0.4s] ease-in-out hover:-translate-y-2 cursor-pointer">
 					<div>
-						<h3 className="smallheading text-black mb-4 pointer-events-none">Basic Lead (No Call)</h3>
+						<h3 className="smallheading text-black mb-4 pointer-events-none">Basic Request (No Call)</h3>
 						<p className="maintext text-black mb-10 pointer-events-none">
-							The client completed the form — we verified it’s a real contact.
+							The client submitted the form — we verified it’s a genuine contact.
 						</p>
 					</div>
 					<div className="flex items-end gap-1">
 						<span className="text-[48px] font-semibold text-[#825BDA] leading-none pointer-events-none">R300</span>
-						<span className="text-black maintext mb-1.5 pointer-events-none">/ per lead</span>
+						<span className="text-black maintext mb-1.5 pointer-events-none">/ per verified request</span>
 					</div>
 				</div>
             	</button>

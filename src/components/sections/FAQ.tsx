@@ -12,38 +12,39 @@ export default function FAQSection() {
 
 	const faqs = [
 		{
-			q: 'What is a “verified lead”?',
-			a: 'A verified lead is a real person who filled out a kitchen quote form, confirmed their details, and expressed genuine interest in ordering a kitchen.',
+			q: 'What is a “verified client request”?',
+			a: 'A verified request comes from a real person who filled out a kitchen quote form, confirmed their details, and showed genuine interest in ordering a kitchen.',
 		},
 		{
-			q: 'How do you verify each lead?',
-			a: 'Every lead goes through a manual or phone verification process. We call to confirm the client’s interest, remove duplicates, and filter out invalid numbers.',
+			q: 'How do you verify each request?',
+			a: 'Every request goes through a manual or phone verification process. We call to confirm the client’s interest, remove duplicates, and filter out invalid numbers.',
 		},
 		{
-			q: 'How many leads can I receive per month?',
-			a: 'On average, our partners receive between 80 and 150 verified leads per month. If you need more, we can scale your volume based on your target areas and budget.',
+			q: 'How many client requests can I receive per month?',
+			a: 'On average, our partners receive between 50 and 1000 verified client requests per month. If you need more, we can scale your volume based on your target areas and budget.',
 		},
 		{
-			q: 'How much does each lead cost?',
-			a: 'Pricing depends on the type of lead:\n– Without a call: R300 per verified lead\n– With a scheduled site visit: R1500 per qualified lead',
+			q: 'How much does each client request cost?',
+			a: 'Pricing depends on the type of request:\n– Without a call: R200-R400 per verified request\n– With a scheduled site visit: R1500 per qualified client',
 		},
 		{
 			q: 'Can I choose which areas to target?',
-			a: 'Yes. You can specify the cities, suburbs, or regions you serve, and we’ll send you only leads from those areas.',
+			a: 'Yes. You can specify the cities, suburbs, or regions you serve, and we’ll send you only requests from those areas.',
 		},
 		{
-			q: 'What happens if a lead doesn’t answer or the number is fake?',
-			a: 'We guarantee replacements for invalid contacts or cases where the client never submitted a request.',
+			q: 'What happens if a contact doesn’t answer or the number is fake?',
+			a: 'We guarantee replacements for invalid contacts or cases where the person never submitted a real request.',
 		},
 		{
-			q: 'Do I need a website to start receiving leads?',
-			a: 'No — we can deliver verified leads directly to your WhatsApp. However, having a website helps improve your conversion rate and builds trust with clients.',
+			q: 'Do I need a website to start receiving clients?',
+			a: 'No — we can deliver verified client requests directly to your WhatsApp. However, having a website helps improve your conversion rate and builds trust with clients.',
 		},
 		{
-			q: 'How long does it take to start receiving leads?',
-			a: 'Usually 2–3 working days. We launch the campaigns, filter the first batch of leads, and start sending verified clients straight to you.',
+			q: 'How long does it take to start receiving clients?',
+			a: 'Usually 2–3 working days. We launch the campaigns, filter the first batch of requests, and start sending verified clients straight to you.',
 		},
 	]
+
 
 	return (
 		<section

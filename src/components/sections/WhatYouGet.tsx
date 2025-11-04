@@ -33,7 +33,7 @@ export default function WhatYouGet() {
 				<div className="grid grid-cols-2 gap-4 lg:gap-8">
 					<div className="card bg-[#F6F4FF] rounded-[40px] p-8">
 						<p className="smallheading text-black">
-							Instant lead delivery<br />to WhatsApp<br />(within 5 minutes)
+							Instant client delivery<br />to WhatsApp<br />(within 5 minutes)
 						</p>
 					</div>
 
@@ -51,7 +51,7 @@ export default function WhatYouGet() {
 
 					<div className="card bg-[#F6F4FF] rounded-[40px] p-8">
 						<p className="smallheading text-black">
-							Scalable lead flow —<br />from 20 to 200+ per month
+							Scalable request volume —<br />from 50 to 1000+ per month
 						</p>
 					</div>
 				</div>

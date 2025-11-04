@@ -81,7 +81,7 @@ export default function CTASection() {
 
 			{/* Контент */}
 			<div className="container relative z-10 flex flex-col items-center gap-5 lg:gap-10 text-center">
-				<h2 className="headingtext font-bold text-black">Get your first leads</h2>
+				<h2 className="headingtext font-bold text-black">Get your first clients</h2>
 				<p className="headingtext inline-block text-[#825BDA] border-4 border-[#825BDA] rounded-full px-6 py-1 rotate-2">
 					in 2 days
 				</p>
@@ -92,7 +92,7 @@ export default function CTASection() {
 					style={{ backgroundImage: "url('/images/ctabg.png')" }}
 				>
 					<p className="smallheading text-white mb-4 lg:mb-8 text-left lg:w-[70%]">
-						Send your request now and start receiving real kitchen clients directly to your WhatsApp.
+						Send your request now and start receiving real kitchen inquiries directly to your WhatsApp.
 					</p>
 
 							<form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">

@@ -11,6 +11,7 @@ import CTASection from '@/components/sections/CTA'
 import FAQSection from '@/components/sections/FAQ'
 import Footer from '@/components/layout/Footer'
 import PopupForm from '@/components/layout/PopupForm'
+import Testimonials from '@/components/sections/Testimonials'
 
 export default function HomePage() {
 	return (
@@ -26,6 +27,7 @@ export default function HomePage() {
 					<WhoWeWorkWith />
 					<LeadCost />
 					<CTASection />
+					<Testimonials />
 					<FAQSection />
 					<Footer />
 			</main>

@@ -66,7 +66,7 @@ export default function Hero() {
 						Just buy them.
 					</h1>
 					<p className="maintext text-black mt-4">
-						We deliver real, verified leads for kitchen manufacturers and installers across South Africa.
+						We deliver real, verified client requests for kitchen manufacturers and installers across South Africa.
 					</p>
 				</div>
 
@@ -80,7 +80,7 @@ export default function Hero() {
 							className="w-8 h-8 lg:w-12 lg:h-12"
 						/>
 						<p className="smallheading text-black text-base lg:text-[30px]">
-							From R300 per verified lead
+							From R300 per verified client request
 						</p>
 					</li>
 
@@ -93,7 +93,7 @@ export default function Hero() {
 							className="w-8 h-8 lg:w-12 lg:h-12"
 						/>
 						<p className="smallheading text-black text-base lg:text-[30px]">
-							Over 100 leads every month
+							Over 100 new customer inquiries every month
 						</p>
 					</li>
 
@@ -106,7 +106,7 @@ export default function Hero() {
 							className="w-8 h-8 lg:w-12 lg:h-12"
 						/>
 						<p className="smallheading text-black text-base lg:text-[30px]">
-							Up to 70% more sales from kitchens
+							Up to 70% more sales opportunities from kitchens
 						</p>
 					</li>
 				</ul>
