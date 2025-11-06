@@ -4,6 +4,8 @@ import { PhoneInput } from 'react-international-phone'
 import 'react-international-phone/style.css'
 import { parsePhoneNumberFromString } from 'libphonenumber-js'
 import { useState } from 'react'
+// Типизация для Meta Pixel
+declare const fbq: (...args: any[]) => void
 
 export default function Hero() {
 	const [formData, setFormData] = useState({
@@ -43,6 +45,13 @@ export default function Hero() {
 
 			if (json.ok) {
 				alert('✅ Your request has been sent!')
+				if (window.fbq) {
+					window.fbq('track', 'Lead', {
+					content_name: 'Hero Form',
+					value: 0,
+					currency: 'USD',
+					})
+				}
 				setFormData({ name: '', phone: '' })
 			} else {
 				alert('❌ Failed to send. Try again later.')

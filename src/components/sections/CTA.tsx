@@ -57,6 +57,13 @@ export default function CTASection() {
 
 			if (json.ok) {
 				alert('✅ Your request has been sent!')
+				if (window.fbq) {
+					window.fbq('track', 'Lead', {
+					content_name: 'CTA Section Form',
+					value: 0,
+					currency: 'USD',
+					})
+				}
 				setFormData({ name: '', city: '', business: '', comment: '', phone: '' })
 			} else {
 				alert('❌ Failed to send. Try again later.')
